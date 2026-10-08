@@ -1,0 +1,14 @@
+name: veriadd
+description: Official Dart client for the Veriadd address KYC API.
+version: 0.1.0
+repository: https://github.com/veriadd/veriadd-dart-sdk
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  http: ^1.2.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
