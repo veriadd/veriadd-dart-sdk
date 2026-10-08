@@ -1,1 +1,14 @@
-include: package:lints/recommended
+# Deliberately self-contained (no package: include): the lint set must never
+# fail on dependency resolution. Revisit against `package:lints/recommended`
+# periodically; these are its most valuable stable rules.
+linter:
+  rules:
+    - always_use_package_imports
+    - avoid_empty_else
+    - avoid_slow_async_io
+    - avoid_web_libraries_in_flutter
+    - cancel_subscriptions
+    - close_sinks
+    - no_wildcard_import
+    - unawaited_futures
+    - unnecessary_import
