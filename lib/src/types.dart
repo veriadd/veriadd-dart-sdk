@@ -164,6 +164,8 @@ class VeriaddVerifyResult {
       identity: identity is Map<String, dynamic>
           ? VeriaddIdentity.fromJson(identity)
           : null,
+      billedKobo: (json['billed_kobo'] as num?)?.toInt() ?? 0,
+      billedNgn: _toDouble(json['billed_ngn']),
     );
   }
 }
