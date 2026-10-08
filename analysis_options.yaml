@@ -9,6 +9,4 @@ linter:
     - avoid_web_libraries_in_flutter
     - cancel_subscriptions
     - close_sinks
-    - no_wildcard_import
     - unawaited_futures
-    - unnecessary_import

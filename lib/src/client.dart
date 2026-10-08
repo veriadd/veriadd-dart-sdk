@@ -3,8 +3,8 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
-import 'errors.dart';
-import 'types.dart';
+import 'package:veriadd/src/errors.dart';
+import 'package:veriadd/src/types.dart';
 
 /// Default production host. Override with [VeriaddClient.baseUrl] for
 /// self-hosted backends or local development.

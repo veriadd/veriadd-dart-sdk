@@ -10,6 +10,6 @@
 /// ```
 library veriadd;
 
-export 'src/client.dart';
-export 'src/errors.dart';
-export 'src/types.dart';
+export 'package:veriadd/src/client.dart';
+export 'package:veriadd/src/errors.dart';
+export 'package:veriadd/src/types.dart';
